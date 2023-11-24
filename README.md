@@ -11,12 +11,12 @@ A simple Rock, Paper, Scissors game with a graphical user interface (GUI) using 
 1. Ensure you have Python installed on your machine.
 2. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/Khaled2062000/GUI-Rock-Paper-Scissors-Tkinter.git
     cd your-repository
     ```
 3. Run the game:
     ```bash
-    python filename.py
+    python GUI-Rock-Paper-Scissors-Tkinter.py
     ```
 ## Usage
 
