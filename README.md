@@ -6,18 +6,6 @@ A simple Rock, Paper, Scissors game with a graphical user interface (GUI) using 
 - User-Friendly Interface: The game features an intuitive graphical interface made with Tkinter, making it easy for users to play.
 - Interactive Gameplay: Choose your move (Rock, Paper, or Scissors) and see the computer's choice. The game will determine the winner and display the result.
 
- ## Getting Started
-
-1. Ensure you have Python installed on your machine.
-2. Clone this repository:
-    ```bash
-    git clone https://github.com/Khaled2062000/GUI-Rock-Paper-Scissors-Tkinter.git
-    cd your-repository
-    ```
-3. Run the game:
-    ```bash
-    python GUI-Rock-Paper-Scissors-Tkinter.py
-    ```
 ## Usage
 
 - Launch the application and follow the on-screen instructions to make your move (Rock, Paper, or Scissors).
