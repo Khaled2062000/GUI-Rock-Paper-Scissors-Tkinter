@@ -1,4 +1,4 @@
-# GUI-Rock-Paper-Scissors-Tkinter
+# GUI-Rock-Paper-Scissors
 A simple Rock, Paper, Scissors game with a graphical user interface (GUI) using Tkinter in Python.
 
 ## Features
