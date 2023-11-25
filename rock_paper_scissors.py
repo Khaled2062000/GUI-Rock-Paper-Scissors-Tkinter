@@ -2,7 +2,7 @@ import random
 
 print("Hello to my first game: rock , paper , scissors")
 
-player = input("Choose your move rock , paper and  scissor: \n")
+player = input("Choose your move rock , paper and  scissor: \n").lower()
 pc = random.choice(['rock' , 'paper' , 'scissor'])
 print("player played: " + player)
 print("pc played: " + pc)

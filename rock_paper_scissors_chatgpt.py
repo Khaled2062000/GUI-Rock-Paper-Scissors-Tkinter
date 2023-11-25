@@ -9,6 +9,7 @@ def get_user_choice():
     else:
         # Show a pop-up message for an invalid choice
         messagebox.showinfo("Invalid Choice", "Please choose 'rock', 'paper', or 'scissor'.")
+        return None
 
 def determine_winner(player, pc):
     if player == pc:
@@ -20,17 +21,17 @@ def determine_winner(player, pc):
 
 def play_game(event=None):
     player_choice = get_user_choice()
-    pc_choice = random.choice(['rock', 'paper', 'scissor'])
-
-    result = determine_winner(player_choice, pc_choice)
-    messagebox.showinfo("Result", f"Player played: {player_choice}\nPC played: {pc_choice}\nResult: {result}")
+    if player_choice is not None:
+        pc_choice = random.choice(['rock', 'paper', 'scissor'])
+        result = determine_winner(player_choice, pc_choice)
+        messagebox.showinfo("Result", f"Player played: {player_choice}\nPC played: {pc_choice}\nResult: {result}")
     
 # Make the main window
 root = tk.Tk()
 root.title("Rock, Paper, Scissors Game")
 
 # Add a label to instruct the user
-label = tk.Label(root, text="Choose your move:", font=("Arial", 14))
+label = tk.Label(root, text="Choose your move: rock , paper , scissor", font=("Arial", 14))
 label.pack(pady=10)
 
 # Add an entry for the user to input their choice
